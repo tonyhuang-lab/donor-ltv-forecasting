@@ -13,14 +13,18 @@ Due to confidentiality agreements, the original dataset cannot be shared. This r
 5. Ensemble modelling using stacking and conditional optimal weighting  
 
 ## Models Used
+- Linear Regression (OLS, Lasso, Ridge, Elastic Net)
+- K-Nearest Neighbour (KNN)
+- Nueral Network
 - Random Forest
-- Decision Tree
+- Decision Tree (Categorical Tree, Regression Tree)
 - XGBoost
 - CatBoost
 
 ## Ensemble Methods
 - Stacking
 - Conditional Optimal Weighting (COW)
+- Equal Weight
 
 ## Evaluation
 Models were evaluated using standard regression metrics to compare predictive performance.
