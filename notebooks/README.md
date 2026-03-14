@@ -1,30 +1,23 @@
-# Donor Lifetime Value Modelling
+# Notebooks
 
-## Overview
-This project explores modelling approaches for predicting donor lifetime value (LTV) using behavioural and demographic variables.
+This folder contains the main analytical notebooks used in the project.
 
-Due to confidentiality agreements, the original dataset cannot be shared. This repository focuses on the analytical workflow and modelling framework.
+## eda_workflow.ipynb
+Demonstrates the general exploratory data analysis (EDA) workflow used to examine the dataset.  
+Steps include data inspection, handling missing values, and basic feature exploration.
 
-## Project Workflow
-1. Data preprocessing and feature construction  
-2. Exploratory analysis of behavioural variables  
-3. Model development using tree-based algorithms  
-4. Hyperparameter tuning with cross-validation  
-5. Ensemble modelling using stacking and conditional optimal weighting  
+Due to confidentiality constraints, dataset-specific details such as column names, numerical values, figures, and certain analytical comments have been anonymised or removed.  
+The overall EDA structure and methodology remain intact.
 
-## Models Used
-- Linear Regression (OLS, Lasso, Ridge, Elastic Net)
-- K-Nearest Neighbour (KNN)
-- Nueral Network
-- Random Forest
-- Decision Tree (Categorical Tree, Regression Tree)
-- XGBoost
-- CatBoost
+## modelling_pipeline.ipynb
+Contains the modelling framework used in the project.
 
-## Ensemble Methods
-- Stacking
-- Conditional Optimal Weighting (COW)
-- Equal Weight
+The notebook demonstrates:
 
-## Evaluation
-Models were evaluated using standard regression metrics to compare predictive performance.
+- preprocessing steps for modelling
+- train–validation splitting
+- implementation of base models such as Random Forest, XGBoost, and CatBoost
+- hyperparameter tuning procedures
+- ensemble modelling using stacking and conditional optimal weighting (COW)
+
+The focus of this notebook is to illustrate the modelling workflow and ensemble methodology rather than the original dataset.
