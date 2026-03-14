@@ -6,3 +6,5 @@ The original analysis was conducted on a donor dataset used in a consulting enga
 Due to confidentiality agreements, the raw data, feature definitions, and certain dataset-specific statistics are not included in this repository.
 
 The notebooks in this project demonstrate the **analytical workflow and modelling framework** used in the analysis without exposing sensitive data.
+
+Researchers or practitioners interested in reproducing the modelling framework may substitute their own dataset with a similar structure.
